@@ -39,6 +39,6 @@ npm install
 npm run dev
 ```
 
-## 👩‍💻 Author
+##  Author
 
 **Vyshnavi M**
