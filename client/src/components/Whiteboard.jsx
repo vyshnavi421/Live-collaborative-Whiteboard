@@ -1,7 +1,7 @@
 import { useRef, useEffect, useState } from "react";
 import { io } from "socket.io-client";
 
-const socket = io("http://localhost:5000");
+const socket = io(" https://live-collaborative-whiteboard-server.onrender.com");
 
 function Whiteboard() {
 
@@ -157,7 +157,7 @@ function Whiteboard() {
             >
 
                 <label>
-                    🎨 Color
+                     Color
                     <input
                         type="color"
                         value={color}
@@ -167,7 +167,7 @@ function Whiteboard() {
                 </label>
 
                 <label>
-                    🖌 Brush
+                    Brush
                     <input
                         type="range"
                         min="1"

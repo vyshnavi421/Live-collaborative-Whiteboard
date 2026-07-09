@@ -18,7 +18,7 @@ const io = new Server(server, {
 
 io.on("connection", (socket) => {
 
-    console.log("✅ User Connected:", socket.id);
+    console.log(" User Connected:", socket.id);
 
     socket.on("drawing", (data) => {
 
@@ -34,7 +34,7 @@ io.on("connection", (socket) => {
 
     socket.on("disconnect", () => {
 
-        console.log("❌ User Disconnected:", socket.id);
+        console.log(" User Disconnected:", socket.id);
 
     });
 
@@ -42,6 +42,6 @@ io.on("connection", (socket) => {
 
 server.listen(5000, () => {
 
-    console.log("🚀 Server running on port 5000");
+    console.log(" Server running on port 5000");
 
 });
