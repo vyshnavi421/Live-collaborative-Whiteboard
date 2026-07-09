@@ -41,4 +41,4 @@ npm run dev
 
 ## 👩‍💻 Author
 
-**Vaishnavi M**
+**Vyshnavi M**
